@@ -54,18 +54,21 @@ section {
 span {
     color: darkgray;
 }
-.descricaopersonagens{
+
+.descricaopersonagens {
     grid-column: 7/-1;
     font-size: 1.25rem;
     text-align: justify;
     grid-row: 2;
 }
-.imagem-rodape{
+
+.imagem-rodape {
     grid-column: 1/7;
     height: 28vw;
     grid-row: 2;
 }
-.Suits-rodape{
+
+.Suits-rodape {
     display: flex;
     grid-column: 7/-1;
     height: 18vw;
@@ -77,4 +80,40 @@ footer {
     color: aliceblue;
     bottom: 0;
     text-align: center;
-} 
+}
+
+@media (max-width:640px) {
+    .Suits-Container {
+        grid-column: 1/-1;
+        grid-row: 1;
+    }
+
+    .personagens {
+        display: flex;
+        grid-column: 1/-1;
+        height: 20rem;
+        align-self: flex-start;
+        grid-row: 2;
+    }
+
+    .descricaopersonagens {
+        grid-column: 1/-1;
+        font-size: 1.25rem;
+        text-align: justify;
+        grid-row: 2;
+        grid-row: initial;
+    
+    }
+
+    .imagem-rodape {
+        grid-column: 1/-1;
+        height: 32rem;
+        grid-row: 4;
+
+    }
+    
+    .Suits-rodape {
+        display: none;
+    }
+
+}
