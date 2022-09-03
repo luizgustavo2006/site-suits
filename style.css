@@ -91,7 +91,7 @@ footer {
     .personagens {
         display: flex;
         grid-column: 1/-1;
-        height: 20rem;
+        height: 50vw;
         align-self: flex-start;
         grid-row: 2;
     }
@@ -107,7 +107,7 @@ footer {
 
     .imagem-rodape {
         grid-column: 1/-1;
-        height: 32rem;
+        height: 70vw;
         grid-row: 4;
 
     }
