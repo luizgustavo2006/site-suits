@@ -19,13 +19,14 @@ section {
 }
 
 .Suits {
-    height: 250px;
+    height: 18vw;
 
 }
 
 .personagens {
     grid-column: 7/-1;
     height: 27.5vw;
+    align-self: center;
 }
 
 .titulo {
@@ -83,6 +84,9 @@ footer {
 }
 
 @media (max-width:640px) {
+    .Suits {
+        height: 18vw;
+    }
     .Suits-Container {
         grid-column: 1/-1;
         grid-row: 1;
