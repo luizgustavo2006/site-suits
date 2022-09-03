@@ -1,0 +1,80 @@
+* {
+    padding: 0;
+    margin: 0;
+    background-color: black;
+    margin: 0.2rem;
+}
+
+body {
+    color: white;
+}
+
+section {
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+}
+
+.Suits-Container {
+    grid-column: 1/7;
+}
+
+.Suits {
+    height: 250px;
+
+}
+
+.personagens {
+    grid-column: 7/-1;
+    height: 27.5vw;
+}
+
+.titulo {
+    display: flex;
+    font-size: 2.8rem;
+}
+
+.info {
+    color: darkgray;
+    display: flex;
+    font-size: 1rem;
+    padding-bottom: 0.5rem;
+}
+
+.titulo-destaque {
+    font-size: 2.8rem;
+}
+
+.sinopse {
+    display: flex;
+    font-size: 1.25rem;
+    text-align: justify;
+    width: 98%;
+}
+
+span {
+    color: darkgray;
+}
+.descricaopersonagens{
+    grid-column: 7/-1;
+    font-size: 1.25rem;
+    text-align: justify;
+    grid-row: 2;
+}
+.imagem-rodape{
+    grid-column: 1/7;
+    height: 28vw;
+    grid-row: 2;
+}
+.Suits-rodape{
+    display: flex;
+    grid-column: 7/-1;
+    height: 18vw;
+    grid-row: 2;
+    align-self: flex-end;
+}
+
+footer {
+    color: aliceblue;
+    bottom: 0;
+    text-align: center;
+} 
